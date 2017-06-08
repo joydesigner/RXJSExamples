@@ -1,0 +1,21 @@
+{
+  "name": "psrsjx5",
+  "version": "1.0.0",
+  "description": "rxjs example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "typings": "^2.1.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
